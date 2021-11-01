@@ -49,3 +49,31 @@
 // ];
 // var finalValue = [bill[0] + tips[0], bill[1] + tips[1], bill[2] + tips[2]];
 // console.log(finalValue);
+
+
+// ******** coding challenge 4 *********** //
+
+// var Mark = {
+//   fullName: 'Mark Zukerberk',
+//   mass: 80, //kg
+//   height: 1.7, //metres
+//   BMI: function () {
+//     return this.mass / this.height ** 2;
+//   },
+// };
+
+// var John = {
+//   fullName: 'John Jones',
+//   mass: 60, //kg
+//   height: 1.6, // metres
+//   BMI: function () {
+//     return this.mass / this.height ** 2;
+//   },
+// };
+// if (John.BMI() > Mark.BMI()) {
+//     console.log(John.fullName + ' has higher BMI with = ' + John.BMI());
+// } else if (John.BMI() < Mark.BMI()) {
+//   console.log(Mark.fullName +  ' has higher BMI with = ' + Mark.BMI());
+// } else {
+//     console.log( 'Their BMI is the same' )
+// }
